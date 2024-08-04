@@ -1,0 +1,149 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+
+#title {
+    background-color: #3FA2F6;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Playfair Display';
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Playwrite Cuba';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 5% 5% 0;
+}
+
+/* Title Imgae */
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+
+/* Features section*/
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: orange;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #3FA2F6;
+}
+
+/* Testimonials section */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #3FA2F6;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Press */
+#press {
+    background-color: #3FA2F6;
+    text-align: center;
+}
+.press-logo {
+    width: 20%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+}
+.pricing-header {
+    color: #000;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* cta */
+#cta {
+    background: #3FA2F6;
+    color: #ffffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading {
+    font-family: 'Font family of your choice';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/* Media */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
